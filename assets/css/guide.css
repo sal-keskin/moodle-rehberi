@@ -166,6 +166,7 @@ pre.code code { font: inherit; background: none; padding: 0; }
 .code-sample button.copy:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
 .site-foot { margin-top: 72px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 13px; color: var(--muted); }
+.site-foot .contact { font-size: 12px; margin-top: 14px; }
 .print-only, .print-block, .print-links { display: none; }
 
 @media (max-width: 900px) {
