@@ -9,7 +9,9 @@
 
   var THEMES = ['light', 'dark', 'night'];
   function normalizeTheme(v) { return THEMES.indexOf(v) === -1 ? null : v; }
-  globalThis.GuideTheme = { normalize: normalizeTheme };
+  // Kayıtlı tercih yoksa varsayılan görünüm Açık'tır; Otomatik yalnızca seçilirse işletim sistemine uyar.
+  function initialTheme(v) { return v === 'auto' || THEMES.indexOf(v) !== -1 ? v : 'light'; }
+  globalThis.GuideTheme = { normalize: normalizeTheme, initial: initialTheme };
   if (typeof document === 'undefined') return;
 
   function readPref(key) { try { return localStorage.getItem(key); } catch (e) { return null; } }
@@ -38,7 +40,7 @@
   themeRadios.forEach(function (r) {
     r.addEventListener('change', function () { applyTheme(r.value); writePref('tema', r.value); });
   });
-  applyTheme(readPref('tema'));
+  applyTheme(initialTheme(readPref('tema')));
 
   var q = document.getElementById('ara');
   var out = document.getElementById('ara-sonuc');

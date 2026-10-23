@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="tr">
+<html lang="tr" data-theme="light">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
 <meta name="color-scheme" content="light dark">
-<script>try{var t=localStorage.getItem('tema');if(t==='light'||t==='dark'||t==='night')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+<script>try{var t=localStorage.getItem('tema');if(t==='auto')document.documentElement.removeAttribute('data-theme');else if(t==='dark'||t==='night')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
 <title>Moodle İçerik Rehberi</title>
 <meta name="description" content="Moodle'da ders içeriği hazırlayan eğiticiler için uygulama kılavuzu.">
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
@@ -19,8 +19,8 @@
 <input id="ara" type="search" placeholder="Rehber içinde arama" autocomplete="off">
 <ul id="ara-sonuc" class="search-results" aria-live="polite"></ul>
 <fieldset class="paths themes"><legend class="group-label">Görünüm</legend>
-<label><input type="radio" name="tema" value="auto" checked><span>Otomatik</span></label>
-<label><input type="radio" name="tema" value="light"><span>Açık</span></label>
+<label><input type="radio" name="tema" value="auto"><span>Otomatik</span></label>
+<label><input type="radio" name="tema" value="light" checked><span>Açık</span></label>
 <label><input type="radio" name="tema" value="dark"><span>Koyu</span></label>
 <label><input type="radio" name="tema" value="night"><span>Gece</span></label>
 </fieldset>
