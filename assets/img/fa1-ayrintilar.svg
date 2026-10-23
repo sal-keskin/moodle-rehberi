@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 408" width="640" height="408" font-family="Plus Jakarta Sans, Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="408" fill="#ffffff"/>
+  <rect x="10" y="10" width="620" height="388" rx="8" fill="#ffffff" stroke="#d4d4d8"/>
+  <g font-size="13">
+    <text x="40" y="44" font-weight="700" fill="#4338ca">Ayrıntılar</text>
+    <text x="170" y="44" fill="#a1a1aa">Video öğeleri</text>
+    <text x="310" y="44" fill="#a1a1aa">Kontroller</text>
+    <text x="440" y="44" fill="#a1a1aa">Görünürlük</text>
+  </g>
+  <rect x="40" y="52" width="80" height="3" fill="#4338ca"/>
+  <rect x="30" y="100" width="580" height="54" rx="6" fill="#ffffff" stroke="#a1a1aa"/>
+  <text x="42" y="119" font-size="12" fill="#52525b">Başlık</text>
+  <text x="42" y="142" font-size="14" fill="#18181b">Epidemiyoloji · 3. Hafta · Sağlık Göstergeleri · Dr. Ayşe Demir</text>
+  <rect x="30" y="166" width="580" height="86" rx="6" fill="#ffffff" stroke="#a1a1aa"/>
+  <text x="42" y="185" font-size="12" fill="#52525b">Açıklama</text>
+  <rect x="42" y="198" width="360" height="9" rx="4" fill="#e4e4e7"/>
+  <rect x="42" y="216" width="300" height="9" rx="4" fill="#e4e4e7"/>
+  <rect x="42" y="234" width="330" height="9" rx="4" fill="#e4e4e7"/>
+  <text x="30" y="282" font-size="14" font-weight="700" fill="#18181b">Kitle</text>
+  <circle cx="44" cy="307" r="8" fill="#ffffff" stroke="#a1a1aa" stroke-width="2"/>
+  <text x="60" y="312" font-size="14" fill="#18181b">Evet, çocuklara özel</text>
+  <circle cx="44" cy="335" r="8" fill="#ffffff" stroke="#4338ca" stroke-width="2"/>
+  <circle cx="44" cy="335" r="4" fill="#4338ca"/>
+  <text x="60" y="340" font-size="14" fill="#18181b">Hayır, çocuklara özel değil</text>
+  <rect x="520" y="346" width="90" height="38" rx="5" fill="#4338ca"/>
+  <text x="565" y="370" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">İleri</text>
+  <rect id="t-baslik" x="30" y="100" width="580" height="54" fill="none" stroke="none"/>
+  <rect id="t-aciklama" x="30" y="166" width="580" height="86" fill="none" stroke="none"/>
+  <rect id="t-kitle" x="30" y="322" width="250" height="26" fill="none" stroke="none"/>
+  <rect id="t-ileri" x="520" y="346" width="90" height="38" fill="none" stroke="none"/>
+</svg>

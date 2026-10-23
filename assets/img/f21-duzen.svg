@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" width="640" height="380" font-family="Plus Jakarta Sans, Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="380" fill="#ffffff"/>
+  <rect x="20" y="10" width="600" height="338" rx="4" fill="#ffffff" stroke="#a1a1aa" stroke-width="1.5"/>
+  <rect x="50" y="40" width="540" height="278" fill="none" stroke="#c7d2fe" stroke-dasharray="6 4"/>
+  <text x="56" y="84" font-size="28" font-weight="700" fill="#18181b">Sağlık Göstergeleri</text>
+  <g font-size="17" fill="#18181b">
+    <text x="62" y="136">• Hız, oran ve orantı</text>
+    <text x="62" y="168">• Pay ve paydanın seçimi</text>
+    <text x="62" y="200">• Yorumlamada sık hatalar</text>
+  </g>
+  <rect x="400" y="120" width="170" height="140" rx="6" fill="#f4f4f5" stroke="#d4d4d8"/>
+  <path d="M420 240 L462 186 L492 220 L512 198 L550 240 Z" fill="#d4d4d8"/>
+  <circle cx="530" cy="152" r="12" fill="#d4d4d8"/>
+  <text x="56" y="306" font-size="12" fill="#52525b">Kaynak: Dünya Sağlık Örgütü, 2024</text>
+  <text x="20" y="370" font-size="13" fill="#52525b">16:9 slayt · kesikli çizgi: güvenli kenar boşluğu</text>
+  <rect id="t-baslik" x="50" y="50" width="300" height="44" fill="none" stroke="none"/>
+  <rect id="t-metin" x="50" y="112" width="290" height="100" fill="none" stroke="none"/>
+  <rect id="t-gorsel" x="400" y="120" width="170" height="140" fill="none" stroke="none"/>
+  <rect id="t-kaynak" x="50" y="290" width="230" height="24" fill="none" stroke="none"/>
+</svg>

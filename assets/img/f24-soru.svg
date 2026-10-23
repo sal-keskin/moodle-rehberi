@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" width="640" height="320" font-family="Plus Jakarta Sans, Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="320" fill="#ffffff"/>
+  <rect x="24" y="18" width="416" height="30" rx="15" fill="#eef0ff" stroke="#c7d2fe"/>
+  <text x="40" y="38" font-size="13" fill="#312e81">Hedef: Hız ölçütlerinin pay ve paydasını tanımlar.</text>
+  <rect x="24" y="62" width="416" height="50" rx="6" fill="#f4f4f5" stroke="#d4d4d8"/>
+  <text x="40" y="93" font-size="16" font-weight="700" fill="#18181b">Hız hesaplamasında payda nedir?</text>
+  <g font-size="14" fill="#18181b">
+    <rect x="24" y="126" width="416" height="38" rx="6" fill="#ffffff" stroke="#4338ca" stroke-width="2"/>
+    <circle cx="46" cy="145" r="8" fill="#4338ca"/>
+    <circle cx="46" cy="145" r="3" fill="#ffffff"/>
+    <text x="64" y="150">A) Risk altındaki nüfus</text>
+    <rect x="24" y="172" width="416" height="38" rx="6" fill="#ffffff" stroke="#d4d4d8"/>
+    <circle cx="46" cy="191" r="8" fill="#ffffff" stroke="#a1a1aa"/>
+    <text x="64" y="196">B) Olgu sayısı</text>
+    <rect x="24" y="218" width="416" height="38" rx="6" fill="#ffffff" stroke="#d4d4d8"/>
+    <circle cx="46" cy="237" r="8" fill="#ffffff" stroke="#a1a1aa"/>
+    <text x="64" y="242">C) Toplam ölüm sayısı</text>
+    <rect x="24" y="264" width="416" height="38" rx="6" fill="#ffffff" stroke="#d4d4d8"/>
+    <circle cx="46" cy="283" r="8" fill="#ffffff" stroke="#a1a1aa"/>
+    <text x="64" y="288">D) Örneklem büyüklüğü</text>
+  </g>
+  <rect id="t-hedef" x="24" y="18" width="416" height="30" fill="none" stroke="none"/>
+  <rect id="t-kok" x="24" y="62" width="416" height="50" fill="none" stroke="none"/>
+  <rect id="t-dogru" x="24" y="126" width="416" height="38" fill="none" stroke="none"/>
+  <rect id="t-celdirici" x="24" y="172" width="416" height="130" fill="none" stroke="none"/>
+</svg>

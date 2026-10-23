@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" width="640" height="300" font-family="Plus Jakarta Sans, Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="300" fill="#ffffff"/>
+  <rect x="10" y="10" width="620" height="280" rx="8" fill="#ffffff" stroke="#d4d4d8"/>
+  <g font-size="13">
+    <text x="40" y="44" fill="#a1a1aa">Ayrıntılar</text>
+    <text x="170" y="44" fill="#a1a1aa">Video öğeleri</text>
+    <text x="310" y="44" fill="#a1a1aa">Kontroller</text>
+    <text x="440" y="44" font-weight="700" fill="#4338ca">Görünürlük</text>
+  </g>
+  <rect x="440" y="52" width="82" height="3" fill="#4338ca"/>
+  <rect x="30" y="74" width="380" height="184" rx="6" fill="#ffffff" stroke="#d4d4d8"/>
+  <circle cx="54" cy="108" r="8" fill="#ffffff" stroke="#a1a1aa" stroke-width="2"/>
+  <text x="72" y="113" font-size="14" fill="#18181b">Gizli</text>
+  <rect x="40" y="134" width="360" height="40" rx="5" fill="#eef0ff"/>
+  <circle cx="54" cy="154" r="8" fill="#ffffff" stroke="#4338ca" stroke-width="2"/>
+  <circle cx="54" cy="154" r="4" fill="#4338ca"/>
+  <text x="72" y="159" font-size="14" font-weight="600" fill="#18181b">Liste dışı</text>
+  <circle cx="54" cy="200" r="8" fill="#ffffff" stroke="#a1a1aa" stroke-width="2"/>
+  <text x="72" y="205" font-size="14" fill="#18181b">Herkese açık</text>
+  <rect x="512" y="236" width="98" height="38" rx="5" fill="#4338ca"/>
+  <text x="561" y="260" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">KAYDET</text>
+  <rect id="t-liste-disi" x="40" y="134" width="360" height="40" fill="none" stroke="none"/>
+  <rect id="t-kaydet" x="512" y="236" width="98" height="38" fill="none" stroke="none"/>
+</svg>
