@@ -1,4 +1,4 @@
-# Halk Sağlığı Okulu İçin Moodle'da Ders İçeriği Hazırlama Rehberi
+# Halk Sağlığı Akademisi İçin Moodle'da Ders İçeriği Hazırlama Rehberi
 
 Moodle'da ders içeriği hazırlayan eğiticiler için uygulamalı rehber.
 
